@@ -56,6 +56,11 @@ div.money {
   bottom: 0;
   z-index: 6; }
 
+div.twitter-share-button {
+  position: fixed;
+  display: inline-block;
+  z-index: 9; }
+
 div.sticker {
   position: relative;
   z-index: 7;
