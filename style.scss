@@ -15,7 +15,7 @@ body {
 
 div.black {
   position: fixed;
-  background-color: black;
+  background-color: white;
   top: 0;
   left: 0;
   height: 100%;
@@ -32,8 +32,8 @@ div.static {
   left: 0;
   height: 100%;
   width: 100%;
-  z-index: 2;
-  opacity: .08;
+  z-index: 5;
+  opacity: 0.1;
 }
 
 h1.title { 
