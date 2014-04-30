@@ -42,7 +42,7 @@ h1.title {
   text-align: center;
   font-size: 40px;
   color: white;
-  font-family: LOT;
+  font-family: lot_font;
   z-index: 5;
   text-shadow: 5px 5px 10px black;
 }
@@ -92,3 +92,9 @@ div.sticker {
   background-size: 104%;
   }
 }
+
+@font-face {
+    font-family: lot_font;
+    src: local(lot_font), url('fonts/LOT.otf') format('opentype');
+}
+
