@@ -56,9 +56,15 @@ div.money {
   bottom: 0;
   z-index: 6; }
 
+div.fb-share-button {
+  position: fixed;
+  display: inline-block;
+  z-index: 10; }
+
 div.twitter-share-button {
   position: fixed;
   display: inline-block;
+  clear: left;
   z-index: 9; }
 
 div.sticker {
